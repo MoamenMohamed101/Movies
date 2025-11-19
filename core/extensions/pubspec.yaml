@@ -1,5 +1,4 @@
-name: domain
-resolution: workspace
+name: extensions
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
@@ -9,7 +8,6 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  dartz: ^0.10.1
   flutter:
     sdk: flutter
 

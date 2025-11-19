@@ -3,12 +3,24 @@ resolution: workspace
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
-
+publish_to: none
 environment:
   sdk: ^3.9.2
   flutter: ">=1.17.0"
 
 dependencies:
+  dio: ^5.5.0
+  retrofit: ^4.9.0
+  json_annotation: ^4.9.0
+  dartz: ^0.10.1
+  datastore:
+    path: ../../../core/datastore
+  data:
+    path: ../../../core/data
+  domain:
+    path: ../../../core/domain
+  extensions:
+    path: ../../../core/extensions
   flutter:
     sdk: flutter
 
@@ -16,6 +28,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  retrofit_generator: ^10.1.4
+  build_runner: ^2.10.3
+  json_serializable: ^6.11.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
