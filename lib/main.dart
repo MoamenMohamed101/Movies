@@ -108,6 +108,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text("My App Language: ${sessionProvider.getAccessToken()}"),
             Text("My App Language: ${sessionProvider.getClientId()}"),
+            Text("My App Language: ${appSettingsProvider.getAppLanguage()}"),
+            Text("My App Language: ${appSettingsProvider.getThemeType()}"),
           ],
         ),
       ),
