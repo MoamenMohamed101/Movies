@@ -25,7 +25,7 @@ workspace:
   - core/domain
   - core/presentation
   - core/datastore
-  - core/exceptions
+  - core/extensions
   - features/settings/profile
   - features/settings/app_settings
   - features/home/main
@@ -68,6 +68,7 @@ melos:
         json_annotation: ^4.9.0
         dartz: ^0.10.1
         connectivity_plus: ^7.0.0
+        shared_preferences: ^2.5.3
       dev_dependencies:
         build_runner: ^2.10.3
         injectable_generator: ^2.9.1
