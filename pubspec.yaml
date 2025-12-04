@@ -44,6 +44,8 @@ dependencies:
   pretty_dio_logger: ^1.4.0
   app_settings:
     path: features/settings/app_settings
+  data:
+    path: core/data
   datastore:
     path: core/datastore
 
@@ -69,6 +71,7 @@ melos:
         dartz: ^0.10.1
         connectivity_plus: ^7.0.0
         shared_preferences: ^2.5.3
+        uuid: ^4.5.2
       dev_dependencies:
         build_runner: ^2.10.3
         injectable_generator: ^2.9.1

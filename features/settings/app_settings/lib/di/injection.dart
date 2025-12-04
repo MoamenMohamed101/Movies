@@ -3,5 +3,7 @@ import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
 @InjectableInit()
-void configureAppSettingsDependencies(GetIt getIt, String? environment) =>
-    getIt.init(environment: environment);
+Future<void> configureAppSettingsDependencies(
+  GetIt getIt,
+  String? environment,
+) async => getIt.init(environment: environment);

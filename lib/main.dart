@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
 import 'package:movie_app/di/injection.dart';
 import 'package:app_settings/provider/app_settings_provider.dart';
-import 'package:datastore/provider/session_provider.dart';
+import 'package:datastore/provider/session/session_provider.dart';
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  configureDependencies(Environment.dev);
+  await configureDependencies(Environment.dev);
   runApp(const MyApp());
 }
 

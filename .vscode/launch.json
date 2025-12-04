@@ -1,0 +1,246 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Movies",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Movies (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Movies (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "data",
+            "cwd": "core\\data",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "data (profile mode)",
+            "cwd": "core\\data",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "data (release mode)",
+            "cwd": "core\\data",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "datastore",
+            "cwd": "core\\datastore",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "datastore (profile mode)",
+            "cwd": "core\\datastore",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "datastore (release mode)",
+            "cwd": "core\\datastore",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "domain",
+            "cwd": "core\\domain",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "domain (profile mode)",
+            "cwd": "core\\domain",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "domain (release mode)",
+            "cwd": "core\\domain",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "extensions",
+            "cwd": "core\\extensions",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "extensions (profile mode)",
+            "cwd": "core\\extensions",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "extensions (release mode)",
+            "cwd": "core\\extensions",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "presentation",
+            "cwd": "core\\presentation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "presentation (profile mode)",
+            "cwd": "core\\presentation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "presentation (release mode)",
+            "cwd": "core\\presentation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "movies",
+            "cwd": "features\\movies",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "movies (profile mode)",
+            "cwd": "features\\movies",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "movies (release mode)",
+            "cwd": "features\\movies",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "login",
+            "cwd": "features\\auth\\login",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "login (profile mode)",
+            "cwd": "features\\auth\\login",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "login (release mode)",
+            "cwd": "features\\auth\\login",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "register",
+            "cwd": "features\\auth\\register",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "register (profile mode)",
+            "cwd": "features\\auth\\register",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "register (release mode)",
+            "cwd": "features\\auth\\register",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "main",
+            "cwd": "features\\home\\main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "main (profile mode)",
+            "cwd": "features\\home\\main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "main (release mode)",
+            "cwd": "features\\home\\main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "app_settings",
+            "cwd": "features\\settings\\app_settings",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_settings (profile mode)",
+            "cwd": "features\\settings\\app_settings",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app_settings (release mode)",
+            "cwd": "features\\settings\\app_settings",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "profile",
+            "cwd": "features\\settings\\profile",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "profile (profile mode)",
+            "cwd": "features\\settings\\profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "profile (release mode)",
+            "cwd": "features\\settings\\profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
