@@ -18,6 +18,8 @@ dependencies:
   get_it: ^9.0.5
   domain:
     path: ../../core/domain
+  datastore:
+    path: ../../core/datastore
   flutter:
     sdk: flutter
 
