@@ -28,7 +28,7 @@ class DioFactory {
     required this.language,
   });
 
-  Future<Dio> getDio() async {
+  Dio getDio() {
     Dio dio = Dio();
     Map<String, String> headers = {
       contentType: applicationJson,
@@ -48,9 +48,9 @@ class DioFactory {
     if (!kReleaseMode) {
       dio.interceptors.add(
         PrettyDioLogger(
-          requestHeader: false,
-          requestBody: false,
-          responseHeader: false,
+          requestHeader: true,
+          requestBody: true,
+          responseHeader: true,
         ),
       );
     }

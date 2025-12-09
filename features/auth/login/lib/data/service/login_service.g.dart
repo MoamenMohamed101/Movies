@@ -12,7 +12,8 @@ part of 'login_service.dart';
 
 class _LoginService implements LoginService {
   _LoginService(this._dio, {this.baseUrl, this.errorLogger}) {
-    baseUrl ??= 'http://192.168.1.100:8080';
+    baseUrl ??=
+        'https://api.mockfly.dev/mocks/85d6edfc-934c-4e5a-bb0e-2b887c3811ca';
   }
 
   final Dio _dio;

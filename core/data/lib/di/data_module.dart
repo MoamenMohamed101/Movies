@@ -53,11 +53,11 @@ abstract class DataModule {
 
   // what is this method for? // This method provides a Dio instance configured with the base URL, access token, and language settings.
   @lazySingleton
-  Future<Dio> dio(
+  Dio dio(
     @Named(DataModuleKeys.baseUrl) String baseUrl,
     @Named(DataModuleKeys.accessToken) String accessToken,
     @Named(DataModuleKeys.language) String language,
-  ) async {
+  ) {
     final dioFactory = DioFactory(
       baseUrl: baseUrl,
       accessToken: accessToken,

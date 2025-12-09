@@ -6,7 +6,8 @@ import 'package:retrofit/http.dart';
 
 part 'login_service.g.dart';
 
-const String baseUrl = "http://192.168.1.100:8080";
+const String baseUrl =
+    "https://api.mockfly.dev/mocks/85d6edfc-934c-4e5a-bb0e-2b887c3811ca";
 
 @RestApi(baseUrl: baseUrl)
 abstract class LoginService {
