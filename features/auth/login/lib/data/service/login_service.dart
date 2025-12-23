@@ -18,6 +18,7 @@ abstract class LoginService {
   }) = _LoginService;
 
   @POST('/customers/login')
+  // it returns a future that will eventually contain an HTTP response with a LoginResponse object.
   Future<HttpResponse<LoginResponse>> login(
     @Field('email') String email,
     @Field('password') String password,

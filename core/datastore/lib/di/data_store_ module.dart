@@ -24,9 +24,4 @@ abstract class DataStroreModule {
   @lazySingleton
   PreferencesProvider providePreferencesProvider(SharedPreferences prefs) =>
       PreferencesProviderImpl(prefs);
-
-  // todo: check me if needed
-  // @lazySingleton
-  // SessionProvider provideSessionProvider(SharedPreferences prefs) =>
-  //     DevSessionProviderImp(prefs);
 }

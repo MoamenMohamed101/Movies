@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:domain/model/failure.dart';
 import 'package:login/data/request/login_request.dart';
 import 'package:login/domain/usecase/login_usecase.dart';
 import 'package:movie_app/di/injection.dart';
